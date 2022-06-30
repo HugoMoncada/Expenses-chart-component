@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Watch it live](https://expenses-chart-component-livid.vercel.app/)
+- Solution URL: [Compare design vs final version here](https://www.frontendmentor.io/solutions/responsive-htmlcssjs-expenses-chart-component-jYuss8Zeuk)
 
 ## My process
 
