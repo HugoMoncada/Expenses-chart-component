@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+
+  <main class="container">
+
+    <section class="balance">
+      <div class="balance__total">
+        <p class="title">My balance</p>
+        <h2>$921.48 </h2>
+      </div>
+      <div class="balance__logo">
+        <svg width="72" height="40" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg> 
+      </div>
+    </section>
+    
+    <section class="stats">
+      <div>
+        <h3 class="stats__title">Spending - Last 7 days</h3>
+      </div>
+
+      <div class="stats__chart">
+        <canvas id="myChart"></canvas>
+      </div>
+
+      <hr>
+
+      <div class="stats__footer">
+        <div class="stats__footer-month">
+          <p class="title footer-title">Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="stats__footer-percentages">
+          <p class="percentage">+2.4%</p>
+          <p class="title footer-title percentage-title">from last month</p>
+        </div>
+      </div>
+  
+  
+  
+
+  
+    </section>
+    
+  
+
+  </main>
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
